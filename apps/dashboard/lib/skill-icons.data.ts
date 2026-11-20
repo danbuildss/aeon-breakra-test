@@ -15,6 +15,7 @@ export const SKILL_ICONS: Record<string, string> = {
   "autoresearch": "<path d='M14 2v6a2 2 0 0 0 .2 1l5.5 10a2 2 0 0 1-1.7 3H6a2 2 0 0 1-1.8-3l5.6-10a2 2 0 0 0 .2-1V2'/><path d='M6.5 15h11'/><path d='M8.5 2h7'/>",
   "base-mcp": "<path fill='currentColor' stroke='none' d='M24 12C24 18.63 18.62 24 11.98 24 5.68 24 .51 19.16 0 13.01H15.89V10.99H0C.51 4.84 5.68 0 11.98 0 18.62 0 24 5.37 24 12Z'/>",
   "bd-radar": "<path d='M19.1 4.9A10 10 0 0 0 7 3.3'/><path d='M4 6h.01'/><path d='M2.3 9.6A10 10 0 1 0 21.3 8.4'/><path d='M16.2 7.8A6 6 0 1 0 8.2 16.7'/><circle cx='12' cy='12' r='2'/><path d='M13.4 10.6l5.7-5.7'/>",
+  "breakra-check": "<path d='M5 3h9l5 5v13H5z'/><path d='M14 3v5h5'/><path d='M9 14l2 2 4-4'/>",
   "canister-audit": "<ellipse cx='9' cy='5' rx='5' ry='2'/><path d='M4 5v9c0 1.1 2.2 2 5 2 .5 0 1 0 1.4-.1'/><path d='M14 5v4'/><circle cx='16' cy='15' r='3.5'/><path d='M18.5 17.5 21 20'/>",
   "canister-status": "<ellipse cx='12' cy='5' rx='6' ry='2.5'/><path d='M6 5v13c0 1.4 2.7 2.5 6 2.5s6-1.1 6-2.5V5'/><path d='M3 13h3l2-3 2 5 2-3h4'/>",
   "changelog": "<path d='M3 12a9 9 0 1 0 9-9 9.8 9.8 0 0 0-6.7 2.7L3 8'/><path d='M3 3v5h5'/><path d='M12 7v5l4 2'/>",
