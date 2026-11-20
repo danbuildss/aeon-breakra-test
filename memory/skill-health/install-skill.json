@@ -1,0 +1,16 @@
+{
+  "skill": "install-skill",
+  "last_analyzed": "2026-11-20T13:55:25Z",
+  "quality_score": 2,
+  "assessment": "Honest, verifiable stop after a permission denial on the dry-run; no fabricated results, but the install-and-PR job was not completed.",
+  "flags": [],
+  "avg_score": 2,
+  "history": [
+    {
+      "date": "2026-11-20",
+      "score": 2,
+      "ts": "2026-11-20T13:55:25Z",
+      "harness": "claude"
+    }
+  ]
+}
