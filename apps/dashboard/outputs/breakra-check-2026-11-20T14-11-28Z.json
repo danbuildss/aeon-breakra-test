@@ -1,0 +1,152 @@
+{
+  "root": "card-main",
+  "state": {},
+  "elements": {
+    "card-main": {
+      "type": "Card",
+      "props": {
+        "title": "Breakra check: demo",
+        "description": "Breaking change and safe change analysis"
+      },
+      "children": [
+        "heading-breaking",
+        "stack-breaking",
+        "separator-1",
+        "heading-safe",
+        "stack-safe"
+      ]
+    },
+    "heading-breaking": {
+      "type": "Heading",
+      "props": {
+        "text": "Breaking change",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack-breaking": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-block",
+        "text-bump-major",
+        "text-breaking-detail",
+        "text-breaking-action",
+        "text-breaking-analysis-id",
+        "alert-dont-merge"
+      ]
+    },
+    "badge-block": {
+      "type": "Badge",
+      "props": {
+        "text": "Verdict: BLOCK",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "text-bump-major": {
+      "type": "Text",
+      "props": {
+        "text": "Bump: major",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-breaking-detail": {
+      "type": "Text",
+      "props": {
+        "text": "Operation POST /orders was removed. Callers of it will receive errors.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-breaking-action": {
+      "type": "Text",
+      "props": {
+        "text": "→ Find and replace all calls to POST /orders.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-breaking-analysis-id": {
+      "type": "Text",
+      "props": {
+        "text": "analysis_id: sha256:31f82ae74e79415f71c30fc6e0fa961c22a3ac16f941be5d6ddccd983909cb39",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "alert-dont-merge": {
+      "type": "Alert",
+      "props": {
+        "title": "Don't merge",
+        "message": "Restore POST /orders or ship it in a new major version.",
+        "type": "error"
+      },
+      "children": []
+    },
+    "separator-1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "heading-safe": {
+      "type": "Heading",
+      "props": {
+        "text": "Safe change",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "stack-safe": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge-safe",
+        "text-bump-minor",
+        "text-safe-detail",
+        "text-safe-analysis-id"
+      ]
+    },
+    "badge-safe": {
+      "type": "Badge",
+      "props": {
+        "text": "Verdict: SAFE",
+        "variant": "default"
+      },
+      "children": []
+    },
+    "text-bump-minor": {
+      "type": "Text",
+      "props": {
+        "text": "Bump: minor",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-safe-detail": {
+      "type": "Text",
+      "props": {
+        "text": "No change that may break callers (GET /customers added).",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "text-safe-analysis-id": {
+      "type": "Text",
+      "props": {
+        "text": "analysis_id: sha256:f32d9a2fc36710002398255d53271d91cf6ccc7a208122d6afdab81058769d68",
+        "variant": "caption"
+      },
+      "children": []
+    }
+  }
+}

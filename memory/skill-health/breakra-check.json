@@ -1,0 +1,16 @@
+{
+  "skill": "breakra-check",
+  "last_analyzed": "2026-11-20T14:11:28Z",
+  "quality_score": 4,
+  "assessment": "Ran the bundled demo and reported both the BLOCK verdict for the removed POST /orders and the SAFE verdict for the added GET /customers, with bump levels, remediation guidance, and deterministic analysis IDs.",
+  "flags": [],
+  "avg_score": 4,
+  "history": [
+    {
+      "date": "2026-11-20",
+      "score": 4,
+      "ts": "2026-11-20T14:11:28Z",
+      "harness": "claude"
+    }
+  ]
+}
