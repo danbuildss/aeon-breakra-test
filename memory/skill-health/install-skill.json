@@ -1,16 +1,22 @@
 {
-  "skill": "install-skill",
-  "last_analyzed": "2026-11-20T13:55:25Z",
-  "quality_score": 2,
-  "assessment": "Honest, verifiable stop after a permission denial on the dry-run; no fabricated results, but the install-and-PR job was not completed.",
-  "flags": [],
+  "assessment": "Honest, verifiable halt at the dry-run approval gate with no install, branch, or PR, so the skill's job was not completed; the report itself makes no invented claims.",
   "avg_score": 2,
+  "flags": [],
   "history": [
     {
       "date": "2026-11-20",
       "score": 2,
       "ts": "2026-11-20T13:55:25Z",
       "harness": "claude"
+    },
+    {
+      "date": "2026-11-20",
+      "score": 2,
+      "ts": "2026-11-20T14:07:09Z",
+      "harness": "claude"
     }
-  ]
+  ],
+  "last_analyzed": "2026-11-20T14:07:09Z",
+  "quality_score": 2,
+  "skill": "install-skill"
 }
