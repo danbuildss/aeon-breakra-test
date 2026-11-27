@@ -1,0 +1,96 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "heartbeat",
+        "description": "Skill output"
+      },
+      "children": [
+        "status",
+        "alert",
+        "sep1",
+        "grid",
+        "sep2",
+        "error",
+        "advice"
+      ]
+    },
+    "status": {
+      "type": "Badge",
+      "props": {
+        "text": "FAILED",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "🔴 FAILED: heartbeat failed 2026-11-26 20:08 UTC",
+        "message": "2 consecutive failures, last success 2026-11-25.",
+        "type": "error"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "grid": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "failures",
+        "lastSuccess"
+      ]
+    },
+    "failures": {
+      "type": "Stat",
+      "props": {
+        "label": "Consecutive failures",
+        "value": "2"
+      },
+      "children": []
+    },
+    "lastSuccess": {
+      "type": "Stat",
+      "props": {
+        "label": "Last success",
+        "value": "2026-11-25"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "error": {
+      "type": "Text",
+      "props": {
+        "text": "Error: \"You've hit your weekly limit · resets 3am (UTC)\"",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "advice": {
+      "type": "Text",
+      "props": {
+        "text": "Likely clears once the limit resets; check usage if it recurs.",
+        "variant": "muted"
+      },
+      "children": []
+    }
+  }
+}
